@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 45px;
+}
+header nav ul.menu{
+    display: flex;
+
+}
+header nav ul li.menu-item{
+    margin-right: 56px;
+}
+header nav div button.login{
+    border: none;
+    border-radius: 10px;
+    background-color: #f6f0e8;
+    padding: 13px 30px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+header nav div button.start{
+    border: none;
+    border-radius: 10px;
+    background-color: #14203e;
+    color: #fff;
+    padding: 13px 30px;
+    font-size: 18px;
+}
+section.slide{
+    padding: 130px 0px;
+    background-color: #FFFCF8;
+    display: flex;
+    justify-content: center
+}
+section.slide div{
+    width: 600px;
+    text-align: center;
+}
+section button.start{
+    border: none;
+    border-radius: 10px;
+    background-color: #14203e;
+    color: #fff;
+    padding: 25px 40px;
+    font-size: 18px;
+}
+section div h1{
+    margin-bottom: 30px;
+    font-size: 66px;
+}
+section div p{
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+section.article{
+    padding: 0px 173px;
+}
+section.article h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 10px;
+}
+section div.list-article article{
+    width: calc((100% - 120px)/4);
+    margin: 0px 15px;
+}
+div.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section div.title span{
+    width: 200px;
+    height: 1px;
+    background-color: #14203E33;
+}
+
+div.list-article{
+    display: flex;
+}
+
+section div.list-article article{
+    margin-bottom: 20px;
+}
+          
+section div article h2{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+section div article span{
+    font-size: 14px;
+   
+}
+section div article img{
+    margin-bottom: 20px;
+}
